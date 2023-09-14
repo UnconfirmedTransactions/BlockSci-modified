@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "external/bitcoin-api-cpp/src/test",
+		"source" : "external/bitcoin-api-cpp/src/test"
+	}
+}

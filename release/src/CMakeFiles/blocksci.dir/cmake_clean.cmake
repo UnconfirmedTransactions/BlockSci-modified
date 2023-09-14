@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/blocksci.dir/exception.cpp.o"
+  "CMakeFiles/blocksci.dir/address/address.cpp.o"
+  "CMakeFiles/blocksci.dir/address/equiv_address.cpp.o"
+  "CMakeFiles/blocksci.dir/scripts/bitcoin_pubkey.cpp.o"
+  "CMakeFiles/blocksci.dir/scripts/bitcoin_base58.cpp.o"
+  "CMakeFiles/blocksci.dir/scripts/bitcoin_bech32.cpp.o"
+  "CMakeFiles/blocksci.dir/scripts/bitcoin_segwit_addr.cpp.o"
+  "CMakeFiles/blocksci.dir/scripts/multisig_pubkey_script.cpp.o"
+  "CMakeFiles/blocksci.dir/scripts/multisig_script.cpp.o"
+  "CMakeFiles/blocksci.dir/scripts/pubkey_base_script.cpp.o"
+  "CMakeFiles/blocksci.dir/scripts/pubkey_script.cpp.o"
+  "CMakeFiles/blocksci.dir/scripts/nonstandard_script.cpp.o"
+  "CMakeFiles/blocksci.dir/scripts/witness_unknown_script.cpp.o"
+  "CMakeFiles/blocksci.dir/scripts/nulldata_script.cpp.o"
+  "CMakeFiles/blocksci.dir/scripts/script.cpp.o"
+  "CMakeFiles/blocksci.dir/scripts/script_range.cpp.o"
+  "CMakeFiles/blocksci.dir/scripts/script_variant.cpp.o"
+  "CMakeFiles/blocksci.dir/scripts/scripthash_script.cpp.o"
+  "CMakeFiles/blocksci.dir/chain/input_pointer.cpp.o"
+  "CMakeFiles/blocksci.dir/chain/output_pointer.cpp.o"
+  "CMakeFiles/blocksci.dir/chain/input.cpp.o"
+  "CMakeFiles/blocksci.dir/chain/output.cpp.o"
+  "CMakeFiles/blocksci.dir/chain/transaction.cpp.o"
+  "CMakeFiles/blocksci.dir/chain/transaction_range.cpp.o"
+  "CMakeFiles/blocksci.dir/chain/block.cpp.o"
+  "CMakeFiles/blocksci.dir/chain/block_range.cpp.o"
+  "CMakeFiles/blocksci.dir/chain/blockchain.cpp.o"
+  "CMakeFiles/blocksci.dir/heuristics/blockchain_heuristics.cpp.o"
+  "CMakeFiles/blocksci.dir/heuristics/change_address.cpp.o"
+  "CMakeFiles/blocksci.dir/heuristics/taint.cpp.o"
+  "CMakeFiles/blocksci.dir/heuristics/tx_identification.cpp.o"
+  "CMakeFiles/blocksci.dir/cluster/cluster_manager.cpp.o"
+  "CMakeFiles/blocksci.dir/cluster/cluster.cpp.o"
+  "libblocksci.pdb"
+  "libblocksci.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/blocksci.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

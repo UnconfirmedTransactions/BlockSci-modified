@@ -1,0 +1,126 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 305,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 312,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 314,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 323,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 324,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/x86_64-linux-gnu",
+			"paths" : 
+			[
+				"src/libblocksci.so"
+			],
+			"targetId" : "blocksci::@145eef247bfb46b6828c",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/x86_64-linux-gnu/cmake/blocksci",
+			"exportName" : "blocksci-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "blocksci::@145eef247bfb46b6828c",
+					"index" : 2
+				}
+			],
+			"paths" : 
+			[
+				"src/CMakeFiles/Export/46c10ae644c8de45a868776938032ed2/blocksci-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Devel",
+			"destination" : "lib/x86_64-linux-gnu/cmake/blocksci",
+			"paths" : 
+			[
+				"cmake-build-debug/src/blocksci-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"src/../include/blocksci"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include/blocksci",
+			"paths" : 
+			[
+				"src/../include/blocksci/address.hpp",
+				"src/../include/blocksci/blocksci_fwd.hpp",
+				"src/../include/blocksci/blocksci.hpp",
+				"src/../include/blocksci/chain.hpp",
+				"src/../include/blocksci/core.hpp",
+				"src/../include/blocksci/heuristics.hpp",
+				"src/../include/blocksci/script.hpp",
+				"src/../include/blocksci/cluster.hpp",
+				"src/../include/blocksci/exception.hpp",
+				"cmake-build-debug/src/blocksci/blocksci_export.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	}
+}

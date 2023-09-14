@@ -1,0 +1,337 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "external/rocksdb/range_del_aggregator_bench"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"external/rocksdb/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1120,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1122,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 249,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 126,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 399,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 434,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 420,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 462,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 329,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 456,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 446,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 467,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 263,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 470,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 471,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 474,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 472,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fPIC -fvisibility=hidden -W -Wextra -Wall -Wsign-compare -Wshadow -Wno-unused-parameter -Wno-unused-variable -Woverloaded-virtual -Wnon-virtual-dtor -Wno-missing-field-initializers -Wno-strict-aliasing -std=c++11 -march=native -Werror -fno-builtin-memcmp -g -DROCKSDB_USE_RTTI -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_PCLMUL"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HAVE_SSE42"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "LZ4"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "OS_LINUX"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "ROCKSDB_FALLOCATE_PRESENT"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "ROCKSDB_LIB_IO_POSIX"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "ROCKSDB_MALLOC_USABLE_SIZE"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "ROCKSDB_NO_DYNAMIC_EXTENSION"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "ROCKSDB_PLATFORM_POSIX"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "ROCKSDB_PTHREAD_ADAPTIVE_MUTEX"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "ROCKSDB_RANGESYNC_PRESENT"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "ROCKSDB_SCHED_GETCPU_PRESENT"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "ROCKSDB_SUPPORT_THREAD_LOCAL"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 15,
+					"path" : "/home/daslab/BlockSci-daslab/external/rocksdb"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/daslab/BlockSci-daslab/external/rocksdb/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/daslab/BlockSci-daslab/external/rocksdb/third-party/folly"
+				},
+				{
+					"backtrace" : 18,
+					"isSystem" : true,
+					"path" : "/home/daslab/BlockSci-daslab/external/rocksdb/third-party/gtest-1.8.1/fused-src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-src/googletest/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-src/googletest"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "gtest::@6585811b3249cdc003a6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "rocksdb-shared::@332f6a8a1187c649af53"
+		},
+		{
+			"id" : "testharness::@332f6a8a1187c649af53"
+		}
+	],
+	"id" : "range_del_aggregator_bench::@332f6a8a1187c649af53",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fPIC -fvisibility=hidden -W -Wextra -Wall -Wsign-compare -Wshadow -Wno-unused-parameter -Wno-unused-variable -Woverloaded-virtual -Wnon-virtual-dtor -Wno-missing-field-initializers -Wno-strict-aliasing -std=c++11 -march=native -Werror -fno-builtin-memcmp -g -DROCKSDB_USE_RTTI",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/daslab/BlockSci-daslab/cmake-build-debug/external/rocksdb",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib/libgtestd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "external/rocksdb/librocksdb.so.6.6.4",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/liblz4.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "range_del_aggregator_bench",
+	"nameOnDisk" : "range_del_aggregator_bench",
+	"paths" : 
+	{
+		"build" : "external/rocksdb",
+		"source" : "external/rocksdb"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/rocksdb/db/range_del_aggregator_bench.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/external/rocksdb/CMakeFiles/testharness.dir/test_util/testharness.cc.o",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

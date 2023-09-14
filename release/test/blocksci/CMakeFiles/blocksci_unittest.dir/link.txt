@@ -1,0 +1,1 @@
+/usr/bin/g++-7  -O3 -DNDEBUG   CMakeFiles/blocksci_unittest.dir/gtest_main.cpp.o CMakeFiles/blocksci_unittest.dir/test_algorithms.cpp.o  -o blocksci_unittest -Wl,-rpath,/home/daslab/BlockSci-daslab/release/src ../../src/libblocksci.so ../../lib/libgtest.a -pthread 

@@ -1,0 +1,1 @@
+/usr/bin/g++-7  -O3 -DNDEBUG   CMakeFiles/blocksci_clusterer.dir/main.cpp.o  -o blocksci_clusterer -Wl,-rpath,/home/daslab/BlockSci-daslab/release/src: ../../src/libblocksci.so -pthread 

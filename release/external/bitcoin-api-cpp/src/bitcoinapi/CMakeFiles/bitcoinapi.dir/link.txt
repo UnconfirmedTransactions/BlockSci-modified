@@ -1,0 +1,1 @@
+/usr/bin/g++-7 -fPIC  -g -Wall -O3 -DNDEBUG  -shared -Wl,-soname,libbitcoinapi.so.0 -o libbitcoinapi.so.0.1.0 CMakeFiles/bitcoinapi.dir/bitcoinapi.cpp.o /usr/lib/x86_64-linux-gnu/libcurl.so /usr/lib/x86_64-linux-gnu/libjsoncpp.so /usr/lib/x86_64-linux-gnu/libjsonrpccpp-common.so /usr/lib/x86_64-linux-gnu/libjsonrpccpp-client.so 

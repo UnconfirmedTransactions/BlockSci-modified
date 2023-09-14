@@ -1,0 +1,139 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"external/rocksdb/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 851,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 853,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 861,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 871,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 878,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "devel",
+			"destination" : "include",
+			"paths" : 
+			[
+				"external/rocksdb/include/rocksdb"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "devel",
+			"destination" : "lib/x86_64-linux-gnu",
+			"paths" : 
+			[
+				"external/rocksdb/librocksdb.a"
+			],
+			"targetId" : "rocksdb::@332f6a8a1187c649af53",
+			"targetIndex" : 24,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "runtime",
+			"destination" : "lib/x86_64-linux-gnu",
+			"paths" : 
+			[
+				"external/rocksdb/librocksdb.so.6.6.4",
+				"external/rocksdb/librocksdb.so.6"
+			],
+			"targetId" : "rocksdb-shared::@332f6a8a1187c649af53",
+			"targetIndex" : 25,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "runtime",
+			"destination" : "lib/x86_64-linux-gnu",
+			"paths" : 
+			[
+				"external/rocksdb/librocksdb.so"
+			],
+			"targetId" : "rocksdb-shared::@332f6a8a1187c649af53",
+			"targetIndex" : 25,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "devel",
+			"destination" : "lib/x86_64-linux-gnu/cmake/rocksdb",
+			"exportName" : "RocksDBTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "rocksdb::@332f6a8a1187c649af53",
+					"index" : 24
+				},
+				{
+					"id" : "rocksdb-shared::@332f6a8a1187c649af53",
+					"index" : 25
+				}
+			],
+			"paths" : 
+			[
+				"external/rocksdb/CMakeFiles/Export/f2c88fb3ca2066f468b01ef813cf85f3/RocksDBTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "devel",
+			"destination" : "lib/x86_64-linux-gnu/cmake/rocksdb",
+			"paths" : 
+			[
+				"cmake-build-debug/external/rocksdb/RocksDBConfig.cmake",
+				"cmake-build-debug/external/rocksdb/RocksDBConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "external/rocksdb",
+		"source" : "external/rocksdb"
+	}
+}

@@ -1,0 +1,137 @@
+/home/daslab/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/daslab/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/ninja/linux/x64/ninja -G Ninja -S /home/daslab/BlockSci-daslab -B /home/daslab/BlockSci-daslab/cmake-build-debug
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-download
+[1/9] Creating directories for 'googletest'
+[2/9] Performing download step (git clone) for 'googletest'
+Cloning into 'googletest-src'...
+HEAD is now at 703bd9ca Googletest export
+[3/9] Performing update step for 'googletest'
+[4/9] No patch step for 'googletest'
+[5/9] No configure step for 'googletest'
+[6/9] No build step for 'googletest'
+[7/9] No install step for 'googletest'
+[8/9] No test step for 'googletest'
+[9/9] Completed 'googletest'
+CMake Deprecation Warning at cmake-build-debug/external/googletest-src/CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at cmake-build-debug/external/googletest-src/googlemock/CMakeLists.txt:45 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at cmake-build-debug/external/googletest-src/googletest/CMakeLists.txt:56 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Found PythonInterp: /usr/bin/python (found version "2.7.17") 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Performing Test HAS_CLASS_MEMACCESS
+-- Performing Test HAS_CLASS_MEMACCESS - Failed
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/cc
+-- Found lz4: /usr/lib/x86_64-linux-gnu/liblz4.so  
+-- Found Git: /usr/bin/git (found version "2.17.1") 
+fatal: not a git repository: /home/daslab/BlockSci-daslab/external/rocksdb/../../.git/modules/libs/rocksdb
+-- Performing Test HAVE_SSE42
+-- Performing Test HAVE_SSE42 - Success
+-- Performing Test HAVE_THREAD_LOCAL
+-- Performing Test HAVE_THREAD_LOCAL - Success
+-- Enabling RTTI in Debug builds only (default)
+-- Performing Test HAVE_FALLOCATE
+-- Performing Test HAVE_FALLOCATE - Success
+-- Performing Test HAVE_SYNC_FILE_RANGE_WRITE
+-- Performing Test HAVE_SYNC_FILE_RANGE_WRITE - Success
+-- Performing Test HAVE_PTHREAD_MUTEX_ADAPTIVE_NP
+-- Performing Test HAVE_PTHREAD_MUTEX_ADAPTIVE_NP - Success
+-- Looking for malloc_usable_size
+-- Looking for malloc_usable_size - found
+-- Looking for sched_getcpu
+-- Looking for sched_getcpu - found
+-- JNI library is disabled
+-- Found JSONCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so
+-- Found JSON-RPC-CPP: /usr/lib/x86_64-linux-gnu/libjsonrpccpp-common.so;/usr/lib/x86_64-linux-gnu/libjsonrpccpp-client.so
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.58.0")  
+-- Found Boost: /usr/include (found version "1.65.1") found components: unit_test_framework 
+-- Found Boost: /usr/include (found version "1.65.1") found components: system filesystem unit_test_framework 
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1")  
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+CMake Warning (dev) at src/internal/CMakeLists.txt:123 (target_sources):
+  Policy CMP0076 is not set: target_sources() command converts relative paths
+  to absolute.  Run "cmake --help-policy CMP0076" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+  An interface source of target "blocksci_internal" has a relative path.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at src/CMakeLists.txt:263 (target_sources):
+  Policy CMP0076 is not set: target_sources() command converts relative paths
+  to absolute.  Run "cmake --help-policy CMP0076" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+  An interface source of target "blocksci" has a relative path.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+CMake Warning (dev) at /home/daslab/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (sparsehash)
+  does not match the name of the calling package (Sparsehash).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/FindSparsehash.cmake:29 (find_package_handle_standard_args)
+  tools/parser/CMakeLists.txt:5 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found sparsehash: /usr/include  
+-- Found Boost: /usr/include (found suitable version "1.65.1", minimum required is "1.58") found components: serialization 
+-- Configuring done (20.3s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/daslab/BlockSci-daslab/cmake-build-debug

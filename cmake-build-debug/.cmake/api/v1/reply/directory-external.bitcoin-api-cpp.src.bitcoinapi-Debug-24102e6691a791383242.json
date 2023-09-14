@@ -1,0 +1,90 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"external/bitcoin-api-cpp/src/bitcoinapi/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/bitcoinapi",
+			"paths" : 
+			[
+				"external/bitcoin-api-cpp/src/bitcoinapi/bitcoinapi.h",
+				"external/bitcoin-api-cpp/src/bitcoinapi/exception.h",
+				"external/bitcoin-api-cpp/src/bitcoinapi/types.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"external/bitcoin-api-cpp/src/bitcoinapi/libbitcoinapi.so.0.1.0",
+				"external/bitcoin-api-cpp/src/bitcoinapi/libbitcoinapi.so.0"
+			],
+			"targetId" : "bitcoinapi::@67b9c51f2bed235cfbce",
+			"targetIndex" : 0,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"external/bitcoin-api-cpp/src/bitcoinapi/libbitcoinapi.so"
+			],
+			"targetId" : "bitcoinapi::@67b9c51f2bed235cfbce",
+			"targetIndex" : 0,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"external/bitcoin-api-cpp/src/bitcoinapi/libbitcoinapi.a"
+			],
+			"targetId" : "bitcoinapi_static::@67b9c51f2bed235cfbce",
+			"targetIndex" : 1,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "external/bitcoin-api-cpp/src/bitcoinapi",
+		"source" : "external/bitcoin-api-cpp/src/bitcoinapi"
+	}
+}

@@ -1,0 +1,811 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						9,
+						11,
+						16,
+						17,
+						19
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "external",
+					"childIndexes" : 
+					[
+						2,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external-Debug-8482bb5b6989bf536f1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "external",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "external/googletest-build",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.googletest-build-Debug-61311458c21a04862b6b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/external/googletest-src"
+				},
+				{
+					"build" : "external/googletest-build/googlemock",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.googletest-build.googlemock-Debug-c66dcca16952237c2737.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "cmake-build-debug/external/googletest-src/googlemock",
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				},
+				{
+					"build" : "external/googletest-build/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.googletest-build.googletest-Debug-d6748820a309be93d013.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.4"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "cmake-build-debug/external/googletest-src/googletest",
+					"targetIndexes" : 
+					[
+						17,
+						18
+					]
+				},
+				{
+					"build" : "external/rocksdb",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.rocksdb-Debug-0cb8d0635d2d8a6649cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "external/rocksdb",
+					"targetIndexes" : 
+					[
+						10,
+						11,
+						13,
+						14,
+						19,
+						21,
+						23,
+						24,
+						25,
+						26,
+						27
+					]
+				},
+				{
+					"build" : "external/bitcoin-api-cpp",
+					"childIndexes" : 
+					[
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.bitcoin-api-cpp-Debug-b4de96a772c5e482099f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "external/bitcoin-api-cpp",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "external/bitcoin-api-cpp/src/bitcoinapi",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.bitcoin-api-cpp.src.bitcoinapi-Debug-24102e6691a791383242.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 5,
+					"source" : "external/bitcoin-api-cpp/src/bitcoinapi",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "external/bitcoin-api-cpp/src/test",
+					"jsonFile" : "directory-external.bitcoin-api-cpp.src.test-Debug-e2b8aab57ba0ccfee204.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 5,
+					"source" : "external/bitcoin-api-cpp/src/test",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Debug-eeb62fefc43492ea1191.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						2,
+						12
+					]
+				},
+				{
+					"build" : "src/internal",
+					"jsonFile" : "directory-src.internal-Debug-eb1c9d5b2b236d2c0621.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 0,
+					"source" : "src/internal",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "tools",
+					"childIndexes" : 
+					[
+						12,
+						13,
+						14,
+						15
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools-Debug-f9645b0170a45a75eff2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "tools"
+				},
+				{
+					"build" : "tools/parser",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.parser-Debug-25bc98f3b6f7320e11f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 7,
+					"source" : "tools/parser",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "tools/mempool_recorder",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.mempool_recorder-Debug-b65818ddaf68d4bf0ea4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 8,
+					"source" : "tools/mempool_recorder",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "tools/integrity_check",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.integrity_check-Debug-c2908427fdb871b4f618.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 9,
+					"source" : "tools/integrity_check",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "tools/clusterer",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.clusterer-Debug-4f2211c72e9d3bd56169.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 10,
+					"source" : "tools/clusterer",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "benchmark",
+					"jsonFile" : "directory-benchmark-Debug-b1f9c84cc15063a9b835.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "benchmark",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "test",
+					"childIndexes" : 
+					[
+						18
+					],
+					"jsonFile" : "directory-test-Debug-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "test"
+				},
+				{
+					"build" : "test/blocksci",
+					"jsonFile" : "directory-test.blocksci-Debug-17d0c47d8b135f18a681.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 13,
+					"source" : "test/blocksci",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "example",
+					"jsonFile" : "directory-example-Debug-b6fca4a6d0a37c6ae6b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "example",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						4,
+						5,
+						6,
+						11,
+						12,
+						14
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						9,
+						10
+					],
+					"name" : "blocksci",
+					"targetIndexes" : 
+					[
+						2,
+						7,
+						12,
+						22
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						17,
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "rocksdb",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						11,
+						13,
+						14,
+						19,
+						21,
+						23,
+						24,
+						25,
+						26,
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6,
+						7,
+						8
+					],
+					"name" : "libbitcoin-api-cpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						28,
+						29
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						7,
+						8,
+						9,
+						10
+					],
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "blocksci_tools",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "blocksci_parser",
+					"parentIndex" : 6,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "mempool_recorder",
+					"parentIndex" : 6,
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "integrity_check",
+					"parentIndex" : 6,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "blocksci_clusterer",
+					"parentIndex" : 6,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "blocksci_benchmark",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						13
+					],
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "blocksci_test",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "blocksci_unittest",
+					"parentIndex" : 12,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "blocksci_example",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 7,
+					"id" : "bitcoinapi::@67b9c51f2bed235cfbce",
+					"jsonFile" : "target-bitcoinapi-Debug-2b2e3aed7893a32b2509.json",
+					"name" : "bitcoinapi",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "bitcoinapi_static::@67b9c51f2bed235cfbce",
+					"jsonFile" : "target-bitcoinapi_static-Debug-4eea17eb3efccfe9aa3c.json",
+					"name" : "bitcoinapi_static",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "blocksci::@145eef247bfb46b6828c",
+					"jsonFile" : "target-blocksci-Debug-fb71f399c6a8ab841240.json",
+					"name" : "blocksci",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "blocksci_benchmark::@3e2e920e28e9d6b4e283",
+					"jsonFile" : "target-blocksci_benchmark-Debug-a848cfa141865d2a1f57.json",
+					"name" : "blocksci_benchmark",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "blocksci_check_integrity::@5b3fbdb41e238de5b9b7",
+					"jsonFile" : "target-blocksci_check_integrity-Debug-de586af5b8479bdc1da0.json",
+					"name" : "blocksci_check_integrity",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "blocksci_clusterer::@52e6045acfc35d36d876",
+					"jsonFile" : "target-blocksci_clusterer-Debug-f16657627e127604679a.json",
+					"name" : "blocksci_clusterer",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "blocksci_example::@70983d692f648185febe",
+					"jsonFile" : "target-blocksci_example-Debug-fb57cba62ac4639ef9bc.json",
+					"name" : "blocksci_example",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "blocksci_internal::@6c4b52c4923443589346",
+					"jsonFile" : "target-blocksci_internal-Debug-441dc6489763f2b7fb94.json",
+					"name" : "blocksci_internal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "blocksci_parser::@e8b08fcdff896135ea49",
+					"jsonFile" : "target-blocksci_parser-Debug-926bc7b44afda10be34a.json",
+					"name" : "blocksci_parser",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "blocksci_unittest::@689b53a7a6b78cc9e7e0",
+					"jsonFile" : "target-blocksci_unittest-Debug-139287e843e77837b62f.json",
+					"name" : "blocksci_unittest",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "build_version::@332f6a8a1187c649af53",
+					"jsonFile" : "target-build_version-Debug-d69b021def8b80d2fc36.json",
+					"name" : "build_version",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "cache_bench::@332f6a8a1187c649af53",
+					"jsonFile" : "target-cache_bench-Debug-2c0010b7c56784243ffb.json",
+					"name" : "cache_bench",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "copy_externals::@145eef247bfb46b6828c",
+					"jsonFile" : "target-copy_externals-Debug-6b1f93976287bc8d5c4d.json",
+					"name" : "copy_externals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "db_bench::@332f6a8a1187c649af53",
+					"jsonFile" : "target-db_bench-Debug-bb46a8fbb0f120115ee1.json",
+					"name" : "db_bench",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "filter_bench::@332f6a8a1187c649af53",
+					"jsonFile" : "target-filter_bench-Debug-e7d2c059db3bfa476c11.json",
+					"name" : "filter_bench",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gmock::@059dfc014005dc2e15da",
+					"jsonFile" : "target-gmock-Debug-de9cf9660bcb95b5e11b.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gmock_main::@059dfc014005dc2e15da",
+					"jsonFile" : "target-gmock_main-Debug-071193146aaa4a2a288a.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest::@6585811b3249cdc003a6",
+					"jsonFile" : "target-gtest-Debug-3cc94b81d66bcbb6dc89.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest_main::@6585811b3249cdc003a6",
+					"jsonFile" : "target-gtest_main-Debug-754374ae3e9ce0d219a7.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "hash_table_bench::@332f6a8a1187c649af53",
+					"jsonFile" : "target-hash_table_bench-Debug-f0faa2fe0178ccd32111.json",
+					"name" : "hash_table_bench",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "mempool_recorder::@60cc08636ba1a757d6c4",
+					"jsonFile" : "target-mempool_recorder-Debug-f2970ce1cef615b09c1a.json",
+					"name" : "mempool_recorder",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "memtablerep_bench::@332f6a8a1187c649af53",
+					"jsonFile" : "target-memtablerep_bench-Debug-87e80af2855f1ea47190.json",
+					"name" : "memtablerep_bench",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "project_secp256k1::@89556154f30252d09d22",
+					"jsonFile" : "target-project_secp256k1-Debug-56e10cea296ee58f4b06.json",
+					"name" : "project_secp256k1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "range_del_aggregator_bench::@332f6a8a1187c649af53",
+					"jsonFile" : "target-range_del_aggregator_bench-Debug-ef0181dec4f77f0c943b.json",
+					"name" : "range_del_aggregator_bench",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "rocksdb::@332f6a8a1187c649af53",
+					"jsonFile" : "target-rocksdb-Debug-58cbba391647739ecd51.json",
+					"name" : "rocksdb",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "rocksdb-shared::@332f6a8a1187c649af53",
+					"jsonFile" : "target-rocksdb-shared-Debug-0cfa7763127feea296b4.json",
+					"name" : "rocksdb-shared",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "table_reader_bench::@332f6a8a1187c649af53",
+					"jsonFile" : "target-table_reader_bench-Debug-6533a8476da705020d80.json",
+					"name" : "table_reader_bench",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "testharness::@332f6a8a1187c649af53",
+					"jsonFile" : "target-testharness-Debug-ca67c63e690bd229d820.json",
+					"name" : "testharness",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "tests::@b12f17a8704f959e2f1f",
+					"jsonFile" : "target-tests-Debug-855a6e0466e42ba06ad7.json",
+					"name" : "tests",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "uninstall::@64e61a4373c5977066a2",
+					"jsonFile" : "target-uninstall-Debug-6df1d6735e18b1d0fbc3.json",
+					"name" : "uninstall",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/daslab/BlockSci-daslab/cmake-build-debug",
+		"source" : "/home/daslab/BlockSci-daslab"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

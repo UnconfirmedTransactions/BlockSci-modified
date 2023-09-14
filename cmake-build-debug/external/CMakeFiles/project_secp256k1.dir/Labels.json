@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/CMakeFiles/project_secp256k1"
+		},
+		{
+			"file" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/CMakeFiles/project_secp256k1.rule"
+		},
+		{
+			"file" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/CMakeFiles/project_secp256k1-complete.rule"
+		},
+		{
+			"file" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/secp256k1/src/project_secp256k1-stamp/project_secp256k1-autogen.rule"
+		},
+		{
+			"file" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/secp256k1/src/project_secp256k1-stamp/project_secp256k1-build.rule"
+		},
+		{
+			"file" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/secp256k1/src/project_secp256k1-stamp/project_secp256k1-configure.rule"
+		},
+		{
+			"file" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/secp256k1/src/project_secp256k1-stamp/project_secp256k1-download.rule"
+		},
+		{
+			"file" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/secp256k1/src/project_secp256k1-stamp/project_secp256k1-install.rule"
+		},
+		{
+			"file" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/secp256k1/src/project_secp256k1-stamp/project_secp256k1-mkdir.rule"
+		},
+		{
+			"file" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/secp256k1/src/project_secp256k1-stamp/project_secp256k1-patch.rule"
+		},
+		{
+			"file" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/secp256k1/src/project_secp256k1-stamp/project_secp256k1-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"project_secp256k1"
+		],
+		"name" : "project_secp256k1"
+	}
+}

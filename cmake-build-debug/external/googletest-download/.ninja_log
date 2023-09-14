@@ -1,0 +1,21 @@
+# ninja log v5
+0	7	1691112892082670379	googletest-prefix/src/googletest-stamp/googletest-mkdir	7f0ebfc0b66634c8
+0	7	1691112892082670379	/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-mkdir	7f0ebfc0b66634c8
+8	15730	1691112907806597347	googletest-prefix/src/googletest-stamp/googletest-download	73637338c5993acd
+8	15730	1691112907806597347	/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-download	73637338c5993acd
+15730	15796	0	googletest-prefix/src/googletest-stamp/googletest-update	d3d9b4a811f0d45c
+15730	15796	0	/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-update	d3d9b4a811f0d45c
+15796	15810	1691112907886596976	googletest-prefix/src/googletest-stamp/googletest-patch	d7d43d6c1381abef
+15796	15810	1691112907886596976	/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-patch	d7d43d6c1381abef
+15810	15830	1691112907906596883	googletest-prefix/src/googletest-stamp/googletest-configure	662ca35575a24c0a
+15810	15830	1691112907906596883	/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-configure	662ca35575a24c0a
+15830	15854	1691112907930596771	googletest-prefix/src/googletest-stamp/googletest-build	2f19a98d7bea8b15
+15830	15854	1691112907930596771	/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-build	2f19a98d7bea8b15
+15854	15887	1691112907962596623	googletest-prefix/src/googletest-stamp/googletest-install	8e2d4967dbc158aa
+15854	15887	1691112907962596623	/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-install	8e2d4967dbc158aa
+15887	15909	1691112907986596511	googletest-prefix/src/googletest-stamp/googletest-test	f8fc1cc71143d869
+15887	15909	1691112907986596511	/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-test	f8fc1cc71143d869
+15909	15919	1691112907994596474	CMakeFiles/googletest-complete	c40f5875989e7b7c
+15909	15919	1691112907994596474	googletest-prefix/src/googletest-stamp/googletest-done	c40f5875989e7b7c
+15909	15919	1691112907994596474	/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-download/CMakeFiles/googletest-complete	c40f5875989e7b7c
+15909	15919	1691112907994596474	/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-done	c40f5875989e7b7c

@@ -1,0 +1,1 @@
+cmd='CFLAGS=-fPIC;CPPFLAGS=-fPIC;<SOURCE_DIR>/configure;--disable-shared;--disable-benchmark;--disable-tests;--disable-exhaustive-tests;--enable-module-recovery;--with-bignum=no;--prefix;<INSTALL_DIR>'

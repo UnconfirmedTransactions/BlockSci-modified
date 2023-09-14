@@ -1,0 +1,24 @@
+{
+    "chainConfig": {
+        "coinName": "bitcoin",
+        "dataDirectory": "/home/daslab/bitcoin_data_debug",
+        "pubkeyPrefix": [
+            0
+        ],
+        "scriptPrefix": [
+            5
+        ],
+        "segwitActivationHeight": 481824,
+        "segwitPrefix": "bc",
+        "taprootActivationHeight": 709632
+    },
+    "parser": {
+        "disk": {
+            "blockMagic": 3652501241,
+            "coinDirectory": "/home/daslab/bitcoin_node",
+            "hashFuncName": "doubleSha256"
+        },
+        "maxBlockNum": 0
+    },
+    "version": 5
+}

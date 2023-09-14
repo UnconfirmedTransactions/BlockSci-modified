@@ -1,0 +1,24 @@
+{
+    "chainConfig": {
+        "coinName": "bitcoin_cash",
+        "dataDirectory": "/home/daslab/bch_data_blocksci",
+        "pubkeyPrefix": [
+            0
+        ],
+        "scriptPrefix": [
+            5
+        ],
+        "segwitActivationHeight": 2147483647,
+        "segwitPrefix": "NONE",
+        "taprootActivationHeight": 2147483647
+    },
+    "parser": {
+        "disk": {
+            "blockMagic": 3652501241,
+            "coinDirectory": "/home/daslab/nfs/chr/BCH",
+            "hashFuncName": "doubleSha256"
+        },
+        "maxBlockNum": 0
+    },
+    "version": 5
+}

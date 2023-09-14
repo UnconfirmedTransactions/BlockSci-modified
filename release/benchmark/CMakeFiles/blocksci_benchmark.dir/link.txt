@@ -1,0 +1,1 @@
+/usr/bin/g++-7  -O3 -DNDEBUG   CMakeFiles/blocksci_benchmark.dir/main.cpp.o  -o blocksci_benchmark -Wl,-rpath,/home/daslab/BlockSci-daslab/release/src ../src/libblocksci.so -pthread 

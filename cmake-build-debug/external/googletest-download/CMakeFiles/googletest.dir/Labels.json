@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-download/CMakeFiles/googletest"
+		},
+		{
+			"file" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-download/CMakeFiles/googletest.rule"
+		},
+		{
+			"file" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-download/CMakeFiles/googletest-complete.rule"
+		},
+		{
+			"file" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-build.rule"
+		},
+		{
+			"file" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-configure.rule"
+		},
+		{
+			"file" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-download.rule"
+		},
+		{
+			"file" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-install.rule"
+		},
+		{
+			"file" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule"
+		},
+		{
+			"file" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-patch.rule"
+		},
+		{
+			"file" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-test.rule"
+		},
+		{
+			"file" : "/home/daslab/BlockSci-daslab/cmake-build-debug/external/googletest-download/googletest-prefix/src/googletest-stamp/googletest-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest"
+		],
+		"name" : "googletest"
+	}
+}
